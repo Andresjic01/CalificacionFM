@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141519;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 65%;
+    background-color: #1f2630;
+    color: white;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #262f38;
+}
+
+h2{
+    margin: 30px 0 15px 0;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    color: #959eac;
+    line-height:1.5em;
+}
+
+.number{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.options{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #262e38;
+    color: #959eac;
+}
+.options:hover{
+    cursor:pointer;
+}
+
+.Submit{
+    height: 40px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+}
+
+.Submit:hover{
+    background-color: #ffffff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.boton-seleccionado{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.homedelete{
+    display: none;
+}
+
+.gratulation{
+    justify-content: center;
+    align-items: center;
+    padding: 30px 25px;
+}
+#parrafo{
+    text-align: center;
+}
+
+h4{
+    
+    font-weight: 400;
+    color: hsl(25, 97%, 53%);
+    font-family: "Overpass", sans-serif;
+}
+
+.you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 30px;
+    background-color: #262e38;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:580px){
+   
+    .home{
+        width: 90%;
+        height: 45%;
+    }
+}
